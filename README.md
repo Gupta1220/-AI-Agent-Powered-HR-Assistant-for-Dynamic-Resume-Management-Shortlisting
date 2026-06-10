@@ -50,7 +50,7 @@ Below is the high-level **n8n flow diagram** for the project:
 
 ---
 
-## 📎 Setup Instructions
+##  Setup Instructions
 ### 1️ Clone Repository
 ```bash
 git clone https://github.com/yourusername/hr-ai-agent.git
@@ -70,8 +70,8 @@ cd hr-ai-agent
 - Check Google Sheets for automated analysis results.
 ---
   
-## 🧑‍💻 Author
+##  Author
 **[O.BHASKAR RADHA KRISHNA GUPTA]**  
-🔗 [[https://www.linkedin.com/in/gupta-obilisetti/](https://www.linkedin.com/in/gupta-obilisetti/)]
-📧 **radhagupta8978@gmail.com**
+ [[https://www.linkedin.com/in/gupta-obilisetti/](https://www.linkedin.com/in/gupta-obilisetti/)]
+ **radhagupta8978@gmail.com**
 
