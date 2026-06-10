@@ -1,12 +1,12 @@
-# 🤖 AI Agent-Powered HR Assistant for Dynamic Resume Management & Shortlisting
+#  AI Agent-Powered HR Assistant for Dynamic Resume Management & Shortlisting
 
-## 📌 Overview
+##  Overview
 This project implements an **AI-powered HR assistant** using **n8n automation** and **Google Gemini** to streamline the process of **resume collection, analysis, and shortlisting**.  
 It automatically receives resumes via Gmail, stores them in Google Drive, extracts text, compares the content with a given job description, and generates a **structured evaluation** of candidates — including **strengths, weaknesses, risk/reward factors, and overall fit score**.
 
 ---
 
-## 🚀 Features
+##  Features
 - **Automated Resume Collection** from Gmail.
 - **Google Drive Integration** for secure storage.
 - **PDF Text Extraction** for both resumes and job descriptions.
@@ -22,7 +22,7 @@ It automatically receives resumes via Gmail, stores them in Google Drive, extrac
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **n8n** – Workflow automation
 - **Google Gmail API** – Resume intake
 - **Google Drive API** – File storage & retrieval
@@ -32,14 +32,14 @@ It automatically receives resumes via Gmail, stores them in Google Drive, extrac
 
 ---
 
-## 📂 Workflow Diagram
+##  Workflow Diagram
 Below is the high-level **n8n flow diagram** for the project:
 
 ![n8n Flow Diagram](n8n_flow_diagram.png)
 
 ---
 
-## 🔄 Workflow Steps
+##  Workflow Steps
 1. **Receive Resume** – Gmail trigger captures incoming emails with resume attachments.
 2. **Upload File** – Store resume in Google Drive.
 3. **Extract Resume Content** – Parse PDF into text.
@@ -51,27 +51,27 @@ Below is the high-level **n8n flow diagram** for the project:
 ---
 
 ## 📎 Setup Instructions
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 ```bash
 git clone https://github.com/yourusername/hr-ai-agent.git
 cd hr-ai-agent
 ```
-### 2️⃣ Import n8n Workflow
+### 2️ Import n8n Workflow
 - Open n8n.
 - Import the provided .json file (hr ai agent.json).
-### 3️⃣ Configure Credentials
+### 3️ Configure Credentials
 - Gmail OAuth2
 - Google Drive OAuth2
 - Google Sheets OAuth2
 - Google Gemini API Key
 
-### 4️⃣ Deploy & Test
+### 4️ Deploy & Test
 - Send a test email with a resume attachment to the connected Gmail account.
 - Check Google Sheets for automated analysis results.
 ---
   
-## 🧑‍💻 Author
-**[N.SURYA PRAKASH REDDY]**  
-🔗 [www.linkedin.com/in/nsprakashreddy](https://www.linkedin.com/in/nsprakashreddy)  
-📧 **suryareddynallimilli@gmail.com**
+##  Author
+**[O.BHASKAR RADHA KRISHNA GUPTA]**  
+🔗 [[https://www.linkedin.com/in/gupta-obilisetti/](https://www.linkedin.com/in/gupta-obilisetti/)]
+📧 **radhagupta8978@gmail.com**
 
